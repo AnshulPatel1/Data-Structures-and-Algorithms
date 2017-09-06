@@ -1,0 +1,61 @@
+** Name : Anshul Patel 
+   Student number: 500698047 
+   Computer Id: aypatel ** 
+
+Summarize your lab:
+
+  In this lab, I completely implemented the part 1 and part 2 programs and they work like they are supossed to. Part 1 and 2 used the intstack program to implement the stack and were therefore a bit easier to 
+  implement. However, I have not completed the part3Main program and therefore my part 3 does not work. Although my part 3 does not work, I still have completed the hasttable and stringstack programs according 
+  to the ready implementation they have already given us. Please keep in mind that the part3Main program has all been commented out so that the rest of the program compiles succuessfully. I will try to finish the 
+  program in time for my personal benefit, however, my submission for this lab will be partly incomplete. 
+
+  Part 1:
+     Works  Yes or No
+     
+     YES
+
+  Part 2:
+     Works  Yes or No
+
+     YES
+
+  Part 3:
+     Works  Yes or No
+
+     NO. I have completed the hashtable file along with the stringstack file but I have not completed the part3Main file. Therefore, my part 3 program
+     does not work. 
+     
+***ANSWERS TO QUESTIONS***
+ Question 1:
+     Which hash table collision resolution method did you use
+     (eg. chaining or open addressing)? Explain your choice
+     briefly (less than 25 words).
+ YOUR ANSWER:
+ 
+ Open-Adressing was used due to the fact that the same hash-values will be pushed to the next index of hash table. 
+ 
+ 
+ 
+ Question 2:
+       Which hash function (division or multiplication) did you use?
+       How did you convert a string into a number?
+ YOUR ANSWER:
+
+ The hash function I have used is the division method. The division method uses the modulator operator to implement it. Because I have only part of the part3Main completeled, 
+ I did not get to implement the conversion of a string to a number. 
+ 
+ Question 3:
+       Another legal XML tag not used in this lab is the
+       stand-alone tag.  This kind of tag
+       combines both a start-tag and end-tag in one.
+       It is identified with a '/' (slash) preceding the
+       final >.  (For example, the <foo/>
+       is a stand-alone tag that is self balancing.
+       
+       Describe briefly how
+       you would modify Part 3 to allow this kind of tag.
+       
+ YOUR ANSWER:
+  
+  All you would have to do is in the ending check for a "/>" tag instead of just a "/" tag. Therefore you would know if it is just a normal tag, or if it is a 
+  stand alone tag. The code for part 3 would pretty much stay the same except of the checking requirements. 

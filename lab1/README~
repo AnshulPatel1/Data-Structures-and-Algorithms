@@ -1,0 +1,15 @@
+** Name : Anshul Patel 
+   Student number: 500698047 
+   Computer Id: aypatel ** 
+
+*** For my code in sortMain2.c, I assumed that testSort2 does not count as an input when you run the file. For example, if you input "testSort2 chicken 10 5 6 12" the output will be "0 5 6 10 12". It will ignore the "testSort2" portion of the input. 
+
+1. void mySort(int d[], unsigned int n) {
+	
+ 	first = 0; 
+	last = n - 1; 
+	betterSort (d, first, last); 
+
+} 
+
+The above is the code used to implement the betterSort function with the same signature that is given in this lab. Assuming that the betterSort function sorts given inputs, all we had to do was call the betterSort function in the mySort function and assume that we are always testing the array as a whole. For example, the starting index in the betterSort function will always be 0 and the ending index will always be n - 1. The reason it is n - 1 is because the value for n essentially represents the length of the array. (How many elements we wish to sort) Therefore, the value for the ending index is always one less than the length. 

@@ -1,0 +1,16 @@
+** Name : Anshul Patel 
+   Student number: 500698047 
+   Computer Id: aypatel ** 
+
+** What I did in this lab to achieve the desired goal is analyze each variation of outut individually, and make sure that each input meets the requirements. For example, if the user enters "towers 1 2 3" in the command line, it first checks that the "1" is an actual number (cannot be a word) that is greater than 0. It then checks that the "2" is also an actual number and that it is between the values of 1 and 3. After that condition is passed, it will check the last number and make sure that the "3" is a actual number and between the values of 1 and 3. If all conditions are met then it assigns the entered values to n, from, and last, and run the file. I did this by using a series of nested if statements and by using the atoi function. If any of the requirements are not met, an error is printed out to stderr using the fprintf function. I have acheived all the requirements in this lab and have fixed each bug. **
+
+Question 1: 
+
+a. ..towers(4,2,1) 
+b. 31 recursive calls will be made. 
+c. What will be printed out to stdout is " 2 3 " which means that the disk will be moved from tower 2 to tower 3. 
+d. ....towers(3,2,3)
+
+Question 2: 
+
+a. 255 

@@ -1,0 +1,19 @@
+** Name : Anshul Patel 
+   Student number: 500698047 
+   Computer Id: aypatel ** 
+
+1. What I accomplished in this lab was successfully implementing the insertion and merge sort algorithms. Both the algorithms functioned in the way they were designed to be functioned and sorted a given order of numbers. 
+   For example, if you gave the algorithms " 10 5 3 2 8", they would both print out "2 3 5 8 10". One thing that I did not accomplish in this lab is the complexity portion of it. Although everything in the lab worked 
+   exactly how it was supossed to work and even printed out the amount of comparisons, swaps, and copies made, the values that were printed out to the comparisons, swaps, and copies did not seem correct. For example, if I 
+   used the mergeSort and insertionSort on a list made up of 1045 numbers, the value that would be printed to the comparison section of the insertionSort would be approximately 277321 and the value that would be printed to 
+   the comparison section of the mergeSort would be 15875. The value for the insertionSort portion seems correct, however, the value for the mergeSort seems off. This is due to the fact that the value for mergeSort should be 
+   somewhere near n * logn, which results in 10480. Therefore the only thing I did not achieve in this lab is the complexity for the mergeSort portion of the lab. 
+
+2. insertionSort = worst case   --> O(n ^ 2) 
+                   average case --> O(n ^ 2) 
+		   best case    --> O(n) 
+
+
+   mergeSort     = worst case   --> O(n * logn) 
+                   average case --> O(n * logn) 
+		   best case    --> O(n * logn) 
